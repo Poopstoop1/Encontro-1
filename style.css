@@ -24,9 +24,27 @@
 
 .conteudo p {
   font-size: 2.3rem;
-  font-family: Ro;
+  font-family: Roboto;
 }
 
 .conteudo span {
   font-size: 1;
+  font-family: Roboto;
+}
+
+.Controles {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Container-progresso input {
+  width: 100%;
+}
+
+.tempo-musica {
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
 }
