@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-player {
+  margin-top: 100px;
+  background-color: #2a2141;
+  border-radius: 4px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.conteudo p {
+  font-size: 2.3rem;
+  font-family: Ro;
+}
+
+.conteudo span {
+  font-size: 1;
+}
